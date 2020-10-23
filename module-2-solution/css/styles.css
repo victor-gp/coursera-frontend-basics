@@ -17,7 +17,8 @@ h1 {
   color: white;
 }*/
 
-/* Simple Responsive Framework. */
+
+/********** Responsive grid **********/
 .row {
   width: 100%;
 }
@@ -46,5 +47,4 @@ h1 {
 }
 
 /********** Mobile version **********/
-@media (max-width: 767px) {
-}
+@media (max-width: 767px) {}
