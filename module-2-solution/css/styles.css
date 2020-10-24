@@ -21,6 +21,7 @@ h1 {
 section {
   position: relative;
   border: 1px solid black;
+  margin: 10px;
 }
 section > h2 {
   position: absolute;
@@ -43,7 +44,7 @@ section > p {
 @media (min-width: 992px) {
   .col-lg-4 {
     float: left;
-    width: 33.33%;
+    width: calc((100% - 60px)/3);
   }
 }
 
@@ -53,7 +54,7 @@ section > p {
     float: left;
   }
   .col-md-6 {
-    width: 50%;
+    width: calc((100% - 40px)/2);
   }
   .col-md-12 {
     width: 100%;
@@ -61,4 +62,8 @@ section > p {
 }
 
 /********** Mobile version **********/
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+  section {
+    float: left; /* So vertical margins don't collapse. */
+  }
+}
