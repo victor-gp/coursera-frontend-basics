@@ -44,7 +44,7 @@ section > p {
 @media (min-width: 992px) {
   .col-lg-4 {
     float: left;
-    width: calc((100% - 60px)/3);
+    width: 33.33%;
   }
 }
 
@@ -54,7 +54,7 @@ section > p {
     float: left;
   }
   .col-md-6 {
-    width: calc((100% - 40px)/2);
+    width: 50%;
   }
   .col-md-12 {
     width: 100%;
