@@ -1,7 +1,13 @@
 /********** Base styles **********/
 * {
     font-family: Helvetica, sans-serif;
-  }
+}
+#collapsable-nav {
+  background-color: wheat;
+}
+#collapsable-nav li {
+  text-align: center;
+}
 h1 {
   margin-bottom: 15px;
   font-size: 1.75em;
@@ -16,6 +22,10 @@ section > h2 {
 
 section > p {
   margin: 15px;
+}
+
+#main-content {
+  margin-bottom: 15px;
 }
 
 #chicken-dish {
