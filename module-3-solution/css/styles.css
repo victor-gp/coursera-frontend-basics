@@ -1,0 +1,38 @@
+/********** Base styles **********/
+* {
+    font-family: Helvetica, sans-serif;
+}
+#collapsable-nav {
+  background-color: wheat;
+}
+#collapsable-nav li {
+  text-align: center;
+}
+h1 {
+  margin-bottom: 15px;
+  font-size: 1.75em;
+}
+section {
+  background-color: #999999;
+}
+section > h2 {
+  margin: 10px;
+  font-size: 1.25em;
+}
+
+section > p {
+  margin: 15px;
+}
+
+#main-content {
+  margin-bottom: 15px;
+}
+
+#chicken-dish {
+  min-height: 1000px;
+}
+
+
+/********** Desktop & tablet version **********/
+
+/********** Mobile version **********/
