@@ -7,3 +7,5 @@ My solutions to the [coding assignments](https://github.com/jhu-ep-coursera/full
 - [Module 3](https://victor-gp.github.io/coursera-frontend-basics/module-3-solution/index.html)
 
 - [Module 4](https://victor-gp.github.io/coursera-frontend-basics/module-4-solution/index.html)
+
+- [Module 5](https://victor-gp.github.io/coursera-frontend-basics/module-5-solution/index.html)
