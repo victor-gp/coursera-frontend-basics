@@ -3,6 +3,10 @@
     font-family: Helvetica, sans-serif;
 }
 
+.navbar {
+  margin-bottom: 0px;
+}
+
 #collapsable-nav-container {
   padding: 0px;
 }
@@ -20,16 +24,16 @@
 }
 
 h1 {
-  margin-bottom: 15px;
+  margin: 15px auto 10px;
   font-size: 1.75em;
 }
 
 #main-content {
-  padding-bottom: 15px;
+  padding: 10px;
 }
 
 .dish {
-  padding: 12px;
+  padding: 10px;
 }
 
 .dish-tile {
@@ -68,6 +72,14 @@ p.dish-tile-padding {
 /********** mobile version **********/
 
 @media (max-width: 767.98px) {
+  #main-content {
+    padding: 5px;
+  }
+
+  .dish {
+    padding: 7px;
+  }
+
   p.dish-tile-padding {
     height: 250px;
   }
