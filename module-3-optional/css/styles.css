@@ -58,3 +58,9 @@ h1 {
 }
 
 /********** mobile version **********/
+
+@media (max-width: 767.98px) {
+  .dish-tile-padding {
+    height: 250px;
+  }
+}
