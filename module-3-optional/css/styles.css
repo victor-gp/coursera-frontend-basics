@@ -7,8 +7,9 @@
   background-color: wheat;
 }
 
-#collapsable-nav li {
+#collapsable-nav li a {
   text-align: center;
+  padding: 0px;
 }
 
 h1 {
