@@ -1,0 +1,94 @@
+/********** Base styles **********/
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  background-color: #702158;
+}
+
+.navbar-default .navbar-brand {
+  color: #9fe3c1;
+  font-family: 'Brush Script MT', cursive;
+}
+
+#collapsable-nav-container {
+  padding: 0px;
+}
+
+#nav-list {
+  background-color: #91206f;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#collapsable-nav li a {
+  text-align: center;
+  padding: 0px;
+  border-bottom: solid black 1px;
+  color: #9fe3c1;
+}
+
+h1 {
+  margin: 15px auto 10px;
+  font-size: 1.75em;
+}
+
+#main-content {
+  padding: 10px;
+  background-color: wheat;
+}
+
+.dish {
+  padding: 10px;
+}
+
+.dish-tile {
+  background-color: #c18548;
+  position: relative;
+  padding: 15px
+}
+
+.dish-tile > h3 {
+  margin: 10px;
+  font-size: 1.25em;
+}
+
+.dish-tile > p {
+  margin: 15px;
+}
+
+p.dish-tile-padding {
+  height: 700px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/********** tablet version **********/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  p.dish-tile-padding {
+    height: 500px;
+  }
+
+  #sushi-dish p.dish-tile-padding {
+    height: 200px;
+  }
+}
+
+/********** mobile version **********/
+
+@media (max-width: 767.98px) {
+  #main-content {
+    padding: 5px;
+  }
+
+  .dish {
+    padding: 7px;
+  }
+
+  p.dish-tile-padding {
+    height: 250px;
+  }
+}
