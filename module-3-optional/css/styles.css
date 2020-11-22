@@ -5,6 +5,12 @@
 
 .navbar {
   margin-bottom: 0px;
+  background-color: #702158;
+}
+
+.navbar-default .navbar-brand {
+  color: #9fe3c1;
+  font-family: 'Brush Script MT', cursive;
 }
 
 #collapsable-nav-container {
@@ -12,7 +18,7 @@
 }
 
 #nav-list {
-  background-color: wheat;
+  background-color: #91206f;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -21,6 +27,7 @@
   text-align: center;
   padding: 0px;
   border-bottom: solid black 1px;
+  color: #9fe3c1;
 }
 
 h1 {
@@ -30,6 +37,7 @@ h1 {
 
 #main-content {
   padding: 10px;
+  background-color: wheat;
 }
 
 .dish {
@@ -37,7 +45,7 @@ h1 {
 }
 
 .dish-tile {
-  background-color: #999999;
+  background-color: #c18548;
   position: relative;
   padding: 15px
 }
